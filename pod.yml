@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: ey-cart-pod
-  namespace: suwetha-ns
+  namespace: dhaniga-ns
   labels:
     app: ey-cart
 spec:
