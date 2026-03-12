@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: ey-cart-rs
-  namespace: suwetha-ns
+  namespace: dhaniga-ns
   labels:
     app: cart
 spec: #it defines the behavoiur of replica set
