@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ey-cart-deploy
+  namespace: dhaniga-ns
+  labels:
+    app: cart
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: ey-cart-container
+          image: suwetha07/flowerimage:latest
+          ports:
+            - containerPort: 3000
+ 
