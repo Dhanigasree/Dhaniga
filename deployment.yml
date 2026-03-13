@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fitness-container
-        image: muralisocial123/kyndrl-flower-app:v1.0.1
+        image: muralisocial123/transaction-app:v1.0.1
         ports:
-        - containerPort: 3015
+        - containerPort: 3000
